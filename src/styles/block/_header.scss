@@ -1,0 +1,40 @@
+.header {
+    background-image: url('../img/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__logo {
+        padding-top: 41px;
+        padding-bottom: 270px;
+    }
+    &__logo-img {
+        width: 101.62px;
+        height: 23px;
+    }
+    &__title {
+        min-height: 50px;
+        color: #FFFFFF;
+        line-height: 70px;
+        letter-spacing: 5.70937px;
+        vertical-align: top;
+    }
+    &__sub-title {
+        font-size: $font-stack;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        padding-bottom: 221px;
+    }
+    &__scroll {
+        display: block;
+        padding-bottom: 71px;
+        font-size: $font-stack;
+        text-decoration: none;
+        font-size: 11px;
+        line-height: 13px;
+        letter-spacing: 3.7px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
+}

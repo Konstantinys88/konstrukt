@@ -1,0 +1,67 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+body .container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url("../img/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header__logo {
+  padding-top: 41px;
+  padding-bottom: 270px;
+}
+.header__logo-img {
+  width: 101.62px;
+  height: 23px;
+}
+.header__title {
+  min-height: 50px;
+  color: #FFFFFF;
+  line-height: 70px;
+  letter-spacing: 5.70937px;
+  vertical-align: top;
+}
+.header__sub-title {
+  font-size: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  padding-bottom: 221px;
+}
+.header__scroll {
+  display: block;
+  padding-bottom: 71px;
+  font-size: "Open Sans", sans-serif;
+  text-decoration: none;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 3.7px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.menu {
+  height: 100px;
+  background-color: aquamarine;
+}/*# sourceMappingURL=main.css.map */
