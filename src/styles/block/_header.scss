@@ -3,38 +3,44 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height:100vh;
     &__logo {
         padding-top: 41px;
         padding-bottom: 270px;
+        text-align: center;
     }
     &__logo-img {
         width: 101.62px;
         height: 23px;
     }
     &__title {
+        font-family:$font-stack;
         min-height: 50px;
         color: #FFFFFF;
         line-height: 70px;
         letter-spacing: 5.70937px;
         vertical-align: top;
         text-transform: uppercase;
+        text-align: center;
     }
     &__sub-title {
-        font-size: $font-stack;
+        font-family: $font-stack;
         font-size: 16px;
         line-height: 19px;
         color: #FFFFFF;
         padding-bottom: 221px;
+        text-align: center;
     }
     &__scroll {
         padding-bottom: 71px;
-        font-size: $font-stack;
+        font-family: $font-stack;
         text-decoration: none;
         font-size: 11px;
         line-height: 13px;
         letter-spacing: 3.7px;
         color: #FFFFFF;
         height: 15px;
+        text-align: center;
         a {
             width: 120px;
             height: 15px;

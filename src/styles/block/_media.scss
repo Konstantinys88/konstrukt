@@ -23,6 +23,30 @@
             align-self: center;
         }
     }
+    .services {
+        padding: 40px 25px 40px;
+        &__header {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__service {
+            flex-wrap: wrap;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        &__service-item {
+            margin-left: 0;
+            margin-top: 20px;
+        }
+        &__header-p {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-left: 25px;
+        }
+        &__header-title-hr {
+            margin: 0 auto;
+        }
+    }
 }
 
 @media(max-width: 768px) {
@@ -40,4 +64,9 @@
             display: none;
         }
     }
+    // .services {
+    //     &__header {
+    //         padding-top: 50px;
+    //     }
+    // }
 }
