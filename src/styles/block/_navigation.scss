@@ -1,0 +1,34 @@
+.navigation {
+    position: sticky;
+    top: 0;
+    background: rgba($color: #ffffff, $alpha: 0.5);
+    &__menu {
+        width: 100%;
+        height: 65px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        img {
+            width: 79px;
+            height: 18px;
+        }
+    }
+    &__nav {
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #48555B;
+            font-family: $font-stack;
+            font-size: 12px;
+            line-height: 14px;
+            font-weight: 700;
+            letter-spacing: 1.09091px;
+            padding-left: 30px;
+            &:hover {
+                color: #00A4E5;
+            }
+        }
+    }
+}

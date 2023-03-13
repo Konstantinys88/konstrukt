@@ -2,8 +2,14 @@ body {
   text-align: center;
   font-family: $font-stack;
   .container {
+    width: 100%;
     max-width: 940px;
     margin: 0 auto;
+  }
+  .hr {
+    width: 50px;
+    height: 2px;
+    border: 2px solid #00A4E5;
   }
 }
 

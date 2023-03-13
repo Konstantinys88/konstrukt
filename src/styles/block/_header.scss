@@ -17,6 +17,7 @@
         line-height: 70px;
         letter-spacing: 5.70937px;
         vertical-align: top;
+        text-transform: uppercase;
     }
     &__sub-title {
         font-size: $font-stack;
@@ -26,7 +27,6 @@
         padding-bottom: 221px;
     }
     &__scroll {
-        display: block;
         padding-bottom: 71px;
         font-size: $font-stack;
         text-decoration: none;
@@ -34,7 +34,11 @@
         line-height: 13px;
         letter-spacing: 3.7px;
         color: #FFFFFF;
-        cursor: pointer;
+        height: 15px;
+        a {
+            width: 120px;
+            height: 15px;
+        }
     }
 
 }
