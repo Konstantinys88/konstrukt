@@ -1,0 +1,30 @@
+.signup {
+    min-height: 100px;
+    background: #171819;
+    margin-top: -2px;
+    &__wrapper {
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        padding-top: 30px;
+    }
+    &__text {
+        font-family: $font-stack;
+        font-size: 22px;
+        line-height: 26px;
+        letter-spacing: 0.846154px;
+        color: #FFFFFF;
+    }
+    &__form {
+        padding-left: 70px;
+    }
+    &__form-mail {
+        min-height: 36px;
+        min-width: 250px;
+        padding: 0 16px;
+        border: none;
+    }
+    &__btn {
+       margin-left: -5px;
+    }
+}

@@ -22,17 +22,36 @@ body .hr {
   height: 2px;
   border: 2px solid #00A4E5;
 }
+body .btn {
+  min-width: 150px;
+  height: 36px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  background-color: #16ACE8;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+body .btn:hover {
+  color: #16ACE8;
+  background-color: #FFFFFF;
+  border: #16ACE8 solid 2px;
+}
 
 .header {
   background-image: url("../img/bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 1020px;
 }
 .header__logo {
   padding-top: 41px;
-  padding-bottom: 270px;
+  padding-bottom: 380px;
   text-align: center;
 }
 .header__logo-img {
@@ -54,7 +73,7 @@ body .hr {
   font-size: 16px;
   line-height: 19px;
   color: #FFFFFF;
-  padding-bottom: 221px;
+  padding-bottom: 360px;
   text-align: center;
 }
 .header__scroll {
@@ -212,17 +231,6 @@ body .hr {
   margin-left: 154px;
 }
 .services__header-btn {
-  min-width: 150px;
-  height: 36px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 13px;
-  line-height: 15px;
-  text-align: center;
-  letter-spacing: 0.5px;
-  color: #FFFFFF;
-  background-color: #16ACE8;
-  border: none;
-  cursor: pointer;
   margin-left: 25px;
 }
 .services__service {
@@ -271,12 +279,175 @@ body .hr {
   padding-top: 13px;
 }
 
+.touch {
+  background-image: url("../img/touch-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 498.24px;
+}
+.touch__text {
+  width: 100%;
+  max-width: 350px;
+  padding-top: 120px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  color: #48555B;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+.touch__btn {
+  margin-top: 35px;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+
+.signup {
+  min-height: 100px;
+  background: #171819;
+  margin-top: -2px;
+}
+.signup__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 30px;
+}
+.signup__text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.846154px;
+  color: #FFFFFF;
+}
+.signup__form {
+  padding-left: 70px;
+}
+.signup__form-mail {
+  min-height: 36px;
+  min-width: 250px;
+  padding: 0 16px;
+  border: none;
+}
+.signup__btn {
+  margin-left: -5px;
+}
+
+.footer {
+  background: #141A20;
+  min-height: 240px;
+}
+.footer__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 26px;
+  padding-bottom: 66px;
+}
+.footer__compani {
+  max-width: 250px;
+}
+.footer__compani-h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.846154px;
+  color: #FFFFFF;
+  margin-bottom: 19px;
+  text-transform: uppercase;
+}
+.footer__compani-logo {
+  max-width: 101.62px;
+  margin-bottom: 15px;
+}
+.footer__compani-p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  line-height: 19px;
+  letter-spacing: 0.85px;
+  color: #FFFFFF;
+}
+.footer__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer__links-mid {
+  margin-left: 34px;
+}
+.footer__links-right {
+  margin-left: 36px;
+}
+.footer__links-a {
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.846154px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding-top: 15px;
+  text-transform: uppercase;
+}
+.footer__contacts {
+  max-width: 141px;
+}
+.footer__socials {
+  max-width: 87px;
+}
+.footer__contacts-a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.846154px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding-top: 25px;
+  display: inline-block;
+}
+.footer__socials-img {
+  width: 20px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.footer__copyright {
+  background: #171819;
+  min-height: 60px;
+  text-align: center;
+}
+.footer__copyright-p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.846154px;
+  color: #FFFFFF;
+  padding-top: 22px;
+}
+
 @media (max-width: 992px) {
   .navigation {
     padding: 0 25px;
   }
   .story {
-    padding: 0 25px 40px;
+    padding: 20px 25px 40px;
     text-align: center;
   }
   .story__wrapper {
@@ -330,6 +501,47 @@ body .hr {
   .services__header-title-hr {
     margin: 0 auto;
   }
+  .signup__wrapper {
+    padding: 15px 15px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .signup__text {
+    margin-bottom: 15px;
+  }
+  .signup__form {
+    padding-left: 0px;
+  }
+  .signup__btn {
+    margin: 15px 0;
+  }
+  .footer {
+    margin-top: -1px;
+  }
+  .footer__wrapper {
+    padding: 30px 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer__links {
+    margin-top: 20px;
+  }
+  .footer__contacts {
+    margin-top: 20px;
+  }
+  .footer__socials {
+    margin-top: 20px;
+  }
 }
 @media (max-width: 768px) {
   .navigation {
@@ -342,5 +554,8 @@ body .hr {
 @media (max-width: 576px) {
   .story__wrapper-right {
     display: none;
+  }
+  .header__sub-title {
+    padding-bottom: 250px;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -3,7 +3,7 @@
         padding: 0 25px;
     }
     .story {
-        padding: 0 25px 40px;
+        padding: 20px 25px 40px;
         text-align: center;
         &__wrapper {
             display: flex;
@@ -47,6 +47,39 @@
             margin: 0 auto;
         }
     }
+    .signup {
+        &__wrapper {
+            padding: 15px 15px;
+            flex-direction: column;
+            align-items:center;
+        }
+        &__text {
+            margin-bottom: 15px;
+        }
+        &__form {
+            padding-left: 0px;
+        }
+        &__btn {
+            margin: 15px 0;
+        }    
+    }
+    .footer {
+        margin-top: -1px;
+        &__wrapper {
+            padding: 30px 30px;
+            flex-direction: column;
+            align-items:center;
+        }
+        &__links {
+            margin-top: 20px;
+        }
+        &__contacts {
+            margin-top: 20px;
+        }
+        &__socials {
+            margin-top: 20px;
+        }
+    }
 }
 
 @media(max-width: 768px) {
@@ -64,9 +97,9 @@
             display: none;
         }
     }
-    // .services {
-    //     &__header {
-    //         padding-top: 50px;
-    //     }
-    // }
+    .header {
+        &__sub-title {
+            padding-bottom: 250px;
+        }
+    }
 }

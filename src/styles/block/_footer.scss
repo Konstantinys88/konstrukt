@@ -1,0 +1,93 @@
+.footer {
+    background: #141A20;
+    min-height: 240px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 26px;
+        padding-bottom: 66px;
+    }
+    &__compani {
+        max-width: 250px;
+    }
+    &__compani-h4 {
+        font-family: $font-stack;
+        font-size: 11px;
+        line-height: 13px;
+        letter-spacing: 0.846154px;
+        color: #FFFFFF;
+        margin-bottom: 19px;
+        text-transform: uppercase;
+    }
+    &__compani-logo {
+        max-width: 101.62px;
+        // height: 23px;
+        margin-bottom: 15px;
+    }
+    &__compani-p {
+        font-family: $font-stack;
+        font-size: 11px;
+        line-height: 19px;
+        letter-spacing: 0.85px;
+        color: #FFFFFF;
+    }
+    &__links {
+        display: flex;
+    }
+    // &__links-left {
+
+    // }
+    &__links-mid {
+        margin-left: 34px;
+    }
+    &__links-right {
+        margin-left: 36px;
+    }
+    &__links-a {
+        display: inline-block;
+        font-family: $font-stack;
+        font-size: 11px;
+        line-height: 13px;
+        letter-spacing: 0.846154px;
+        color: #FFFFFF;
+        text-decoration: none;
+        padding-top: 15px;
+        text-transform: uppercase;
+    }
+    &__contacts {
+        max-width: 141px;
+    }
+    &__socials {
+        max-width: 87px;
+    }
+    &__contacts-a {
+        font-family: $font-stack;
+        font-size: 11px;
+        line-height: 16px;
+        letter-spacing: 0.846154px;
+        color: #FFFFFF;
+        text-decoration: none;
+        padding-top: 25px;
+        display: inline-block;
+    }
+    &__socials-img {
+        width: 20px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+    &__copyright {
+        background: #171819;
+        min-height: 60px;
+        text-align: center;
+    }
+    &__copyright-p {
+        font-family: $font-stack;
+        font-size: 11px;
+        line-height: 13px;
+        letter-spacing: 0.846154px;
+        color: #FFFFFF;
+        padding-top: 22px;
+    }
+
+}
