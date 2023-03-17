@@ -89,6 +89,7 @@
         width: 50%;
         left: -100%;
         transition: 0.5s all;
+        z-index: 100;
         &_active {
             left: 0;
         }
@@ -101,6 +102,20 @@
         &__logo {
             padding-bottom: 30px;
             padding-left: 30px;
+        }
+        &__nav {
+            max-width: 120px;
+            a {
+                font-size: 16px;
+                line-height: 50px;
+            }
+        }
+    }
+
+    .overlay {
+        &_active {
+            right: 0;
+            transition: 0.5s all;
         }
     }
 
