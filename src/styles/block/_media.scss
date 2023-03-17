@@ -84,8 +84,34 @@
 
 @media(max-width: 768px) {
     .navigation {
-        display: none;
+        position: fixed;
+        height: 100vh;
+        width: 50%;
+        left: -100%;
+        transition: 0.5s all;
+        &_active {
+            left: 0;
+        }
+        &__menu {
+            height: 100vh;
+            width: 50%;
+            flex-direction: column;
+            justify-content: center;
+        }
+        &__logo {
+            padding-bottom: 30px;
+            padding-left: 30px;
+        }
     }
+
+    .hamburger {
+        display: block;
+        position: fixed;
+        span {
+            display: block;
+        }
+    }
+
     .story {
         padding-top: 30px;
     }
@@ -99,7 +125,7 @@
     }
     .header {
         &__sub-title {
-            padding-bottom: 250px;
+            padding: 50px 25px 250px 25px;
         }
     }
 }
